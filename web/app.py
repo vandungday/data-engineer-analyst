@@ -14,7 +14,7 @@ import sys
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 try:
-    from data_science_salary_analysis import DataScienceSalaryAnalysis
+    from salary_analysis import DataScienceSalaryAnalysis
 except ImportError:
     print("Warning: Could not import DataScienceSalaryAnalysis. Using fallback prediction.")
 
